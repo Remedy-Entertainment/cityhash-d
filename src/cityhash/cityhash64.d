@@ -89,6 +89,16 @@ ulong CityHash64(const( char )[] buffer )
 	return HashLen16( HashLen16( v.first, w.first ) + ShiftMix( y ) * k1 + z, HashLen16( v.second, w.second ) + x );
 }
 
+ulong CityHash64WithSeed( const( char )[] buffer, ulong seed )
+{
+	return CityHash64WithSeeds( buffer, k2, seed );
+}
+
+ulong CityHash64WithSeeds( const( char )[] buffer, ulong seed0, ulong seed1)
+{
+	return HashLen16( CityHash64( buffer ) - seed0, seed1 );
+}
+
 private:
 
 ulong ShiftMix( ulong val )
