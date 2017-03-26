@@ -28,3 +28,4 @@
 
 module cityhash.cityhash32;
 
+// Implementation to be added at a later date.
