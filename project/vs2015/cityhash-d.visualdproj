@@ -3,7 +3,7 @@
  <Config name="Debug" platform="Win32">
   <obj>0</obj>
   <link>0</link>
-  <lib>0</lib>
+  <lib>1</lib>
   <subsystem>0</subsystem>
   <multiobj>0</multiobj>
   <singleFileCompilation>0</singleFileCompilation>
@@ -105,7 +105,7 @@
  <Config name="Release" platform="Win32">
   <obj>0</obj>
   <link>0</link>
-  <lib>0</lib>
+  <lib>1</lib>
   <subsystem>0</subsystem>
   <multiobj>0</multiobj>
   <singleFileCompilation>0</singleFileCompilation>
@@ -207,7 +207,7 @@
  <Config name="Debug" platform="x64">
   <obj>0</obj>
   <link>0</link>
-  <lib>0</lib>
+  <lib>1</lib>
   <subsystem>0</subsystem>
   <multiobj>0</multiobj>
   <singleFileCompilation>0</singleFileCompilation>
@@ -309,7 +309,7 @@
  <Config name="Release" platform="x64">
   <obj>0</obj>
   <link>0</link>
-  <lib>0</lib>
+  <lib>1</lib>
   <subsystem>0</subsystem>
   <multiobj>0</multiobj>
   <singleFileCompilation>0</singleFileCompilation>
@@ -414,6 +414,5 @@
    <File path="..\..\src\cityhash\cityhash32.d" />
    <File path="..\..\src\cityhash\cityhash64.d" />
   </Folder>
-  <File path="main.d" />
  </Folder>
 </DProject>
